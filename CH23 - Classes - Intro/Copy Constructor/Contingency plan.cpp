@@ -30,3 +30,12 @@ int main() {
 	MyClass o2 = o1; 
 
 }
+
+
+/*
+* 
+* References:
+* 1. https://github.com/Apress/Modern-C-for-Absolute-Beginners-2nd-ed/blob/main/Chapter_23/Chapter_23.4.3/source.cpp
+
+
+*/
