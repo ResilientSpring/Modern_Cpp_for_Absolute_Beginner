@@ -16,7 +16,7 @@ public:
 
 	MyClass(const MyClass& rhs) :x{ rhs.x }, y{ rhs.y }  // initialize members with other object's members [1]
 	{
-		cout << "Copy constructor invoked.";
+		cout << "Copy constructor invoked.\n";
 	}
 
 };
