@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Constructor 2", "Constructo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Constructor's member initializer list", "Constructor's member initializer list\Constructor's member initializer list.vcxproj", "{814DF3DA-56D7-4140-ABA4-92FD4197D2C0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Copy Constructor", "Copy Constructor\Copy Constructor.vcxproj", "{1D7BF310-B232-41E4-BED3-8C6F14758C09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{814DF3DA-56D7-4140-ABA4-92FD4197D2C0}.Release|x64.Build.0 = Release|x64
 		{814DF3DA-56D7-4140-ABA4-92FD4197D2C0}.Release|x86.ActiveCfg = Release|Win32
 		{814DF3DA-56D7-4140-ABA4-92FD4197D2C0}.Release|x86.Build.0 = Release|Win32
+		{1D7BF310-B232-41E4-BED3-8C6F14758C09}.Debug|x64.ActiveCfg = Debug|x64
+		{1D7BF310-B232-41E4-BED3-8C6F14758C09}.Debug|x64.Build.0 = Debug|x64
+		{1D7BF310-B232-41E4-BED3-8C6F14758C09}.Debug|x86.ActiveCfg = Debug|Win32
+		{1D7BF310-B232-41E4-BED3-8C6F14758C09}.Debug|x86.Build.0 = Debug|Win32
+		{1D7BF310-B232-41E4-BED3-8C6F14758C09}.Release|x64.ActiveCfg = Release|x64
+		{1D7BF310-B232-41E4-BED3-8C6F14758C09}.Release|x64.Build.0 = Release|x64
+		{1D7BF310-B232-41E4-BED3-8C6F14758C09}.Release|x86.ActiveCfg = Release|Win32
+		{1D7BF310-B232-41E4-BED3-8C6F14758C09}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
