@@ -19,6 +19,8 @@ public:
 
 int main() {
 
+	MyClass o1{ 1, 2 };
 
+	MyClass o2 = o1; 
 
 }
