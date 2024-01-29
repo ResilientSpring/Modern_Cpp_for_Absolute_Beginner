@@ -16,7 +16,7 @@ public:
 
 	MyClass(const MyClass& obj):x{obj.x}, p{new int{*obj.p}}
 	{
-		cout << "Copy constructor invoked.";
+		cout << "Copy constructor invoked.\n";
 	}
 
 };
@@ -28,6 +28,5 @@ int main() {
 	MyClass o1{ 1, 2 };
 
 	MyClass o2 = o1;
-
 
 }
