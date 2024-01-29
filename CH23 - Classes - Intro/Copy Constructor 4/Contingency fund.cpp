@@ -25,8 +25,10 @@ public:
 
 int main() {
 
+	MyClass o1 = MyClass(5, 8);
+
 	MyClass o2 = o1;
 
-	MyClass o1{ 1, 2 };
+	MyClass o3{ 1, 2 };
 
 }
