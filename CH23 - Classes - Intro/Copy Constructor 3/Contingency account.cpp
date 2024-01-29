@@ -11,10 +11,10 @@ public:
 
 	MyClass(int xx, int pp) :x{ xx }, p{ new int{pp} }
 	{
-
+		cout << "User-defined constructor invoked.\n";
 	}
 
-	MyClass(const MyClass& obj):x{obj.x}, p{new int{*obj.p}}
+	MyClass(const MyClass& obj) :x{ obj.x }, p{ new int{*obj.p} }
 	{
 		cout << "Copy constructor invoked.\n";
 	}
