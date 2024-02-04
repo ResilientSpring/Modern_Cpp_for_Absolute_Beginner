@@ -12,7 +12,7 @@ public:
 	MyClass(int xx, int pp)
 	{
 		x = xx;
-		p = pp;
+		p = new int(pp);
 
 		cout << "User-defined constructor invoked.\n";
 	}
